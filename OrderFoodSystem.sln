@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34622.214
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebAPI", "WebAPI\WebAPI.csproj", "{288ACD32-88E0-4E84-9D60-9B29DB6D2C15}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core", "Core\Core.csproj", "{F592E449-5BE5-437F-81FB-BA52E9585A12}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infrastructure", "Infrastructure\Infrastructure.csproj", "{E2010FEE-098A-48B9-A08A-1B05A2A3C832}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{288ACD32-88E0-4E84-9D60-9B29DB6D2C15}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{288ACD32-88E0-4E84-9D60-9B29DB6D2C15}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{288ACD32-88E0-4E84-9D60-9B29DB6D2C15}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{288ACD32-88E0-4E84-9D60-9B29DB6D2C15}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F592E449-5BE5-437F-81FB-BA52E9585A12}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F592E449-5BE5-437F-81FB-BA52E9585A12}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F592E449-5BE5-437F-81FB-BA52E9585A12}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F592E449-5BE5-437F-81FB-BA52E9585A12}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E2010FEE-098A-48B9-A08A-1B05A2A3C832}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E2010FEE-098A-48B9-A08A-1B05A2A3C832}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E2010FEE-098A-48B9-A08A-1B05A2A3C832}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E2010FEE-098A-48B9-A08A-1B05A2A3C832}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {671A34F6-49A2-4705-8E39-27C3E1E323EE}
+	EndGlobalSection
+EndGlobal
